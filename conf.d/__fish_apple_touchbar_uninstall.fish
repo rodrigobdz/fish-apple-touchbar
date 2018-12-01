@@ -1,4 +1,3 @@
-
 set -l name (basename (status -f) .fish){_uninstall}
 
 function __fish_apple_touchbar_uninstall --on-event $name

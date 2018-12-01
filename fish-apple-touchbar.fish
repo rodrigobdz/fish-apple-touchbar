@@ -1,6 +1,4 @@
 function fish-apple-touchbar
-    __fish_apple_touchbar_set_state 'first'
-
     function __fish_apple_touchbar_first_view
         function bind_keys_function
             __fish_apple_touchbar_bind_key 1 '👉 pwd' "pwd" '-s'
@@ -27,16 +25,5 @@ function fish-apple-touchbar
         end
 
         __fish_apple_touchbar_create_view 'third' bind_keys_function
-    end
-
-    function __fish_apple_touchbar_view_switcher --on-variable PWD
-        switch $__fish_apple_touchbar_state
-            case 'first'
-                __fish_apple_touchbar_first_view
-            case 'second'
-                __fish_apple_touchbar_second_view
-            case 'third'
-                __fish_apple_touchbar_third_view
-        end
     end
 end
