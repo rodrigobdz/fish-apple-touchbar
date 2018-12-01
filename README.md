@@ -41,7 +41,7 @@ It currently shows three default views from [zsh-apple-touchbar](https://github.
 
 ## Related Projects
 
-- [zsh-users/zsh-apple-touchbar](https://github.com/zsh-users/zsh-apple-touchbar): **fish-apple-touchbar** is based on zsh-apple-touchbar and was ported to work with fish. For more information, please read [zsh-apple-touchbar/issues/2](https://github.com/zsh-users).
+- [zsh-users/zsh-apple-touchbar](https://github.com/zsh-users/zsh-apple-touchbar): **fish-apple-touchbar** is based on zsh-apple-touchbar and was ported to work with fish. For more information, please read [zsh-apple-touchbar/issues/2](https://github.com/zsh-users/zsh-apple-touchbar/issues/2).
 - [derekstavis/touchrunner](https://github.com/derekstavis/touchrunner): Offers some extended functionality. Keybinding commands to configure the Touchbar were useful for the creation of **fish-apple-touchbar**.
 
 ## License
