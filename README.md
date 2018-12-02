@@ -28,16 +28,11 @@
 
 ## Usage
 
-It currently shows three default views from [zsh-apple-touchbar](https://github.com/zsh-users/zsh-apple-touchbar) which are configurable in `fish-apple-touchbar.fish`. For a usage GIF refer to [zsh-apple-touchbar usage](https://github.com/zsh-users/zsh-apple-touchbar/blob/0b81e05c4a0d65d52d0ecaab4dd9a3deac3a5849/preview.gif).
+It currently shows three default views from [zsh-apple-touchbar](https://github.com/zsh-users/zsh-apple-touchbar) which are configurable in `fish-apple-touchbar.fish`.
 
-- First view
-  ![first view](./assets/views/first_view.png)
+![fish-apple-touchbar preview](./assets/preview.gif)
 
-- Second view
-  ![second view](./assets/views/second_view.png)
-
-- Third view
-  ![third view](./assets/views/third_view.png)
+Preview made with [Touch Bar Simulator](https://github.com/sindresorhus/touch-bar-simulator) and [Gifski](https://github.com/sindresorhus/gifski-app).
 
 ## Related Projects
 
