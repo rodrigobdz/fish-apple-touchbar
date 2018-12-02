@@ -1,5 +1,7 @@
 # fish-apple-touchbar
 
+[![Mentioned in Awesome fish-shell](https://awesome.re/mentioned-badge.svg)](https://github.com/jorgebucaran/awesome-fish-shell)
+
 > Supercharge your touchbar with fish
 
 ## Requirements
