@@ -23,7 +23,7 @@
 1. Add Fisher package
 
    ```sh
-   fisher add rodrigobdz/fish-apple-touchbar
+   fisher rodrigobdz/fish-apple-touchbar
    ```
 
 1. Open a new terminal session to activate the package
