@@ -20,10 +20,18 @@
 
    ![function keys touchbar](./assets/iterm2-touchbar-function-module.png)
 
-1. Add Fisher package
+1. Install Fisher package
+
+   Fisher v3
 
    ```sh
    fisher add rodrigobdz/fish-apple-touchbar
+   ```
+   
+   Fisher v2
+   
+   ```sh
+   fisher rodrigobdz/fish-apple-touchbar
    ```
 
 1. Open a new terminal session to activate the package
