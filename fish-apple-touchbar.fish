@@ -1,5 +1,5 @@
 function fish-apple-touchbar
-    if status is-interactive
+    if not status is-interactive
         exit 0
     end
     function __fish_apple_touchbar_first_view
