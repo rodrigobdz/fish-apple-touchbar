@@ -1,3 +1,7 @@
 function __fish_apple_touchbar_print_key --argument-names cmd
-    echo -ne "\033]1337;$cmd\a"
+    set template "\e]1337;%s\a"
+    if test -n "$TMUX"
+        set template "\ePtmux;\e$template\e\\"
+    end
+    printf $template "$cmd"
 end
