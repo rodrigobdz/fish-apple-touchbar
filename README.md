@@ -20,8 +20,6 @@
 
 1. Install with [Fisher](https://github.com/jorgebucaran/fisher)
 
-   Fisher v3
-
    ```console
    fisher install rodrigobdz/fish-apple-touchbar
    ```
