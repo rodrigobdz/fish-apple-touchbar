@@ -13,6 +13,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - `Fixed` - bug fixes.
 - `Security` - vulnerabilities.
 
+## [1.0.0]
+
+### Changed
+
+- Uninstall: Rename `conf.d/__fish_apple_touchbar_uninstall.fish` to `conf.d/fish_apple_touchbar.fish`
+- Move `init.fish` to `conf.d/plugin_name.fish`
+- Use long-format options in `conf.d/fish_apple_touchbar.fish`
+- Move top-level fish functions to `functions/`
+- Move `functions/keybindings.fish` to `conf.d/fish_apple_touchbar.fish`
+
 ## [Unreleased]
 
 [unreleased]: https://github.com/rodrigobdz/fish-apple-touchbar/compare/...HEAD
+[1.0.0]: https://github.com/rodrigobdz/fish_apple_touchbar/releases/tag/v1.0.0
