@@ -34,10 +34,19 @@ It currently shows three default views from [zsh-apple-touchbar](https://github.
 
 Preview made with [Touch Bar Simulator](https://github.com/sindresorhus/touch-bar-simulator) and [Gifski](https://github.com/sindresorhus/gifski-app).
 
-## Related Projects
+## Related
+
+### Projects
 
 - [zsh-users/zsh-apple-touchbar](https://github.com/zsh-users/zsh-apple-touchbar): **fish-apple-touchbar** is based on zsh-apple-touchbar and was ported to work with fish. For more information, please read [zsh-apple-touchbar/issues/2](https://github.com/zsh-users/zsh-apple-touchbar/issues/2).
 - [derekstavis/touchrunner](https://github.com/derekstavis/touchrunner): Offers some extended functionality. Keybinding commands to configure the Touchbar were useful for the creation of **fish-apple-touchbar**.
+
+### Dev Documentation
+
+- [Proprietary Escape Codes - iterm2](https://iterm2.com/documentation-escape-codes.html)
+- [Touch Bar - iterm2](https://iterm2.com/documentation-touch-bar.html)
+- [Control Characters and Escape Sequences - Terminal Guide](https://terminalguide.namepad.de/seq/osc-1337-setkeylabel/)
+- [`commandline` - fish](https://fishshell.com/docs/current/cmds/commandline.html)
 
 ## License
 
