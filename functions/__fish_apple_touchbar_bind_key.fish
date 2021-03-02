@@ -6,7 +6,7 @@ function __fish_apple_touchbar_bind_key --argument-names fn_number fn_text fn_co
     end
 
     if [ "$bind_option" = "-s" ]
-        bind $vimbind --key f$fn_number "commandline -r '$fn_command'; commandline -f execute"
+        bind $vimbind --key f$fn_number "commandline --replace '$fn_command'; commandline --function execute"
     else
         bind --key f$fn_number $fn_command
     end
