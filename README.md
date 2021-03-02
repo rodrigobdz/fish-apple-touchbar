@@ -47,6 +47,7 @@ Preview made with [Touch Bar Simulator](https://github.com/sindresorhus/touch-ba
 - [Touch Bar - iterm2](https://iterm2.com/documentation-touch-bar.html)
 - [Control Characters and Escape Sequences - Terminal Guide](https://terminalguide.namepad.de/seq/osc-1337-setkeylabel/)
 - [`commandline` - fish](https://fishshell.com/docs/current/cmds/commandline.html)
+- [`bind` - fish](https://fishshell.com/docs/current/cmds/bind.html)
 
 ## License
 
