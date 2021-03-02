@@ -1,8 +1,8 @@
 function __fish_apple_touchbar_bind_key --argument-names fn_number fn_text fn_command bind_option
     __fish_apple_touchbar_print_key "SetKeyLabel=F$fn_number=$fn_text"
 
-    if bind -M insert >/dev/null 2>&1
-        set vimbind "-M" "insert"
+    if test "$fish_key_bindings" = fish_vi_key_bindings
+        set vimbind "--mode" "insert"
     end
 
     if [ "$bind_option" = "-s" ]

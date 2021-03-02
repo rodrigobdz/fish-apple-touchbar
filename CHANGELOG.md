@@ -28,7 +28,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 - Fixed fisher install and uninstall event triggers
-- Fixed fisher's [deprecation](https://github.com/jorgebucaran/fisher/issues/651) notice
+- [Fixed](https://github.com/rodrigobdz/fish-apple-touchbar/issues/10) fisher's [deprecation](https://github.com/jorgebucaran/fisher/issues/651) notice
+- [Fixed](https://github.com/rodrigobdz/fish-apple-touchbar/issues/7) key bindings when vi mode is not enabled
 
 ## [Unreleased]
 
