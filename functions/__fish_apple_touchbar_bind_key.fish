@@ -6,7 +6,11 @@ function __fish_apple_touchbar_bind_key --argument-names fn_number fn_text fn_co
     end
 
     if [ "$bind_option" = "-s" ]
-        bind $vimbind --key f$fn_number "commandline --replace '$fn_command'; commandline --function execute"
+        if string match -q -- "*osascript*" "$fn_command"
+	    bind $vimbind --key f$fn_number "eval ($fn_command)"
+        else
+            bind $vimbind --key f$fn_number "commandline --replace '$fn_command'; commandline --function execute"
+        end
     else
         bind --key f$fn_number $fn_command
     end
