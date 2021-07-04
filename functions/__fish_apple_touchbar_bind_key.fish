@@ -12,6 +12,7 @@ function __fish_apple_touchbar_bind_key --argument-names fn_number fn_text fn_co
         end
 	
 	bind $vimbind --key f$fn_number "commandline --replace '$fn_command'; commandline --function execute"
+	return
     end
     
     bind --key f$fn_number $fn_command
