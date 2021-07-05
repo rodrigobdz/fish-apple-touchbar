@@ -1,6 +1,6 @@
 function fish-apple-touchbar
     if not status is-interactive
-        exit 0
+        return 0
     end
     function __fish_apple_touchbar_first_view
         function _bind_keys_function_1
